@@ -39,7 +39,7 @@ data "aws_subnet_ids" "all" {
 ### Defining resource for EC2 instances and configuration
 
 resource "aws_instance" "web" {
-    ami                    = "ami-0a07be880014c7b8e"
+ #   ami                    = "ami-0a07be880014c7b8e"
     count                  = var.instance_count
     instance_type          = var.instance_type
     key_name               = "jharris"
