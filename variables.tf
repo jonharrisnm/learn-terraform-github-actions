@@ -50,4 +50,8 @@ variable "terraform" {
     description = "Resource provisioned via TF"
     default     = "true"
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d568d383cdb9d61117fbb9d94de6d09616695446

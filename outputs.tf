@@ -16,4 +16,8 @@ output "instance_ips" {
 output "alb_dns_name" {
   description = "DNS of the Application Load Balancer"
   value = [aws_alb.https-lb.dns_name]
+<<<<<<< HEAD
   }
+=======
+  }
+>>>>>>> d568d383cdb9d61117fbb9d94de6d09616695446
